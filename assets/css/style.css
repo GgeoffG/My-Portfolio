@@ -1,3 +1,6 @@
+html{
+  font-size:62.5%
+}
 * {
   box-sizing: border-box;
   font-size: 1.5rem;
@@ -16,9 +19,7 @@
   --copen: rgba(33,99,136,1);
   --oyster: rgba(225,218,199);
 }
-html{
-  font-size:62.5%
-}
+
 body {
 background-color: var(--light);
 color: var(--copen);
@@ -84,16 +85,87 @@ nav a {
 
 
 #hero {
-  background: rgb(68, 88, 120);
-  background-image: url("assets\images\dell-L8OnHwhCEE0-unsplash.jpg") ;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
-  min-height: 30vh;
-  color: var(--light);
-  padding: 2% 6%;
+  display:flex;
+  background-image: url("/assets/images/dell-L8OnHwhCEE0-unsplash.jpg");
+  background-position: 1%;
+  background-size:auto;
+  height:40rem;
+  margin:0;
+  padding:0;
+  justify-content:center;
+  color:var(--dark);
+  align-items: end;
+  text-align: center;
+
+}
+
+#hero h2 {
+  display: inline;
+  background-color: var(--oyster);
+  font-size: 3rem;
+  margin:1rem;
+  position: relative; top: -36rem;
+}
+
+.page-section {
+  margin: 25px 0;
+  padding: 10px 0;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+#about {
+  margin:0 ;
+  padding:auto ;
+  display: flex;
+  align-items:0 ;
+  justify-content: left
+}
+
+#about h3 {
+  flex: 0 0 20%;
   text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 4vw;
+  line-height: 1.1;
+}
+
+#about p {
+  margin:auto;
+  padding-left: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+.coming-soon{
+  background-image:url("/assets/images/Coming-Soon-Rubber-Stamp-Seal-Graphics-8999043-1.jpg");
+  background-position: 1%;
+  background-size:auto;
 }

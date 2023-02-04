@@ -221,7 +221,7 @@ main {
 
 /* portfolio project images */
 #refactor{
-  background: url("assets\images\digital-marketing-meeting.jpg") center center/cover no-repeat;
+  background-image: url("assets\images\digital-marketing-meeting.jpg") center center/cover no-repeat;
 }
 
 .led-wall {
