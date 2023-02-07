@@ -1,25 +1,28 @@
-Web Portfolio
-Description
+# Web Portfolio
+## Description
 This webpage is used to display a portfolio that provides links to your work. It has a nav bar to each section of the portfolio and linked images to for your projects. It features an about me, a the work links, and contact information and links.
 
-Table of Contents
-Installation
-Usage
-Credits
-License
+## Table of Contents 
 
-Installation
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+
+## Installation
 To run this page on your local machine or access development simply install the html and assets folders into a directory.
 
-Usage
+## Usage
 The website contains four links in the nav bar that allow the user to access the about me, work, and contact sections as well as a link to an online resume (resume currently not included). It is also possible to see find these subjects by scrolling down the page.
 
-Credits
+## Credits
 Images provided by:
 Unsplash
 
 
-License
+## License
 MIT License
 
 Copyright (c) [2023] [Geoffrey Langenberg]
